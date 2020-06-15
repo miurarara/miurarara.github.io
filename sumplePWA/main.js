@@ -15,8 +15,8 @@ var vue = new Vue({
         }
     },
     metods: {
-        reversMessage: function(){
-            this.message = this.message.split('').revarse().join('')
+        reverseMessage(){
+            this.message = this.message.split('').reverse().join('')
         }
     }
 })
