@@ -14,7 +14,7 @@ var vue = new Vue({
             message: 'Hello.Vue!'
         }
     },
-    metods: {
+    methods: {
         reverseMessage(){
             this.message = this.message.split('').reverse().join('')
         }
