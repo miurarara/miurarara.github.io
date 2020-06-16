@@ -1,0 +1,12 @@
+.p_message{
+    text-align: center;
+    font-size: 64px;
+}
+.reverse_btn{
+    text-align: center;
+    background-color: #ff9066;
+    width: 10rem;
+    height: 5rem;
+    font-size: 1rem;
+    margin-left: 50rem;
+}

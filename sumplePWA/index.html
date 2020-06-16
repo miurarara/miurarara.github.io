@@ -4,11 +4,12 @@
         <title>PWA sample</title>
         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
         <link rel="manifest" href="manifrest.json">
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
         <div id='app'>
-            <p>{{ message }}</p>
-            <button v-on:click='reverseMessage'>revarseMessage</button>
+            <p class='p_message'>{{ message }}</p>
+            <button v-on:click='reverseMessage' class='reverse_btn'>revarseMessage</button>
         </div>
         <script src='main.js'></script>
         <script src='service_worker.js'></script>
